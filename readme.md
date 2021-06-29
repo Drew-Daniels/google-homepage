@@ -11,18 +11,18 @@ The goal of this assignment is to deconstruct and reconstruct the google homepag
 5. Create the manual "Google Search" button beneath the search bar
 6. Create the "I'm Feeling Lucky" button beneath the search bar
 7. Create the footer
-    a. *Leaf Image* "Carbon neutral since 2007"
-    b. Advertising
-    c. Business
-    d. How Search works
-    e. Privacy
-    f. Terms
-    g. Settings
+    * *Leaf Image* "Carbon neutral since 2007"
+    * Advertising
+    * Business
+    * How Search works
+    * Privacy
+    * Terms
+    * Settings
 8. Create the toolbar at the top
-    a. About
-    b. Store
-    c. Gmail
-    d. Images
-    e. *Google Apps Image*
-    f. *Sign in* button
+    * About
+    * Store
+    * Gmail
+    * Images
+    * *Google Apps Image*
+    * *Sign in* button
 
