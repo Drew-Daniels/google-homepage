@@ -1,0 +1,26 @@
+#google-logo {
+    width: 30%;
+    display: flex;
+    margin-top: 30%;
+    padding-bottom: 20px;
+}
+
+#srchbox {
+    display: flex;
+    width: 45em;
+    height: 2em;
+}
+
+faded {
+    opacity: 0.5;
+}
+
+.center {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.rounded {
+    border-radius: 10px;
+}
