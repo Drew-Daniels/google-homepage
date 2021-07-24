@@ -65,14 +65,25 @@ table {
     padding-bottom: 20px;
 }
 
-#srchbox {
+.srchbox {
     display: flex;
+    position: relative;
+    top:0;
+    left:0;
     width: 45em;
     height: 2em;
     border: em;
     border-radius: 10px;
     margin-left: auto;
     margin-right: auto;
+    z-index: 1;
+}
+
+#mag-glass {
+    position: absolute;
+    top: 15%;
+    left: 1%;
+    z-index: 2;
 }
 
 #leaf {
@@ -88,6 +99,13 @@ table {
     max-width: 100px;
 }
 
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:5%;
+}
+
 .top-toolbar {
     margin: 10px;
     padding: 5px;
@@ -95,6 +113,8 @@ table {
 
 .toolbar-base {
     display: flex;
+    align-content: space-around;
+    align-items: center;
     justify-content: space-between;
     height: 40px;
     width: 100%;
@@ -115,7 +135,6 @@ table {
 }
 
 .button-base {
-    display: inline;
     margin: 10px;
 }
 
@@ -128,8 +147,10 @@ table {
 }
 
 .box-buttons {
+    display: inline-block;
     background-color: rgb(245, 245, 245);
     padding: 10px;
+    border-radius: 5%;
 }
 
 .profile-pic {
@@ -137,4 +158,8 @@ table {
     height: 100%;
     width: 100%;
     max-width: 25px;
+}
+
+.tiny-flex {
+    display: flex;
 }
