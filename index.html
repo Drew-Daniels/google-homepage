@@ -9,15 +9,18 @@
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@300&display=swap" rel="stylesheet">
     </head>
 <body>
-    <div class="top-toolbar">
+    <header class="toolbar-base toolbar-top">
+        <div>
         <span class="button-base button-left">About</span>
         <span class="button-base button-left">Store</span>
-        <div>
-            <span class="button-base button-right">Images</span>        
-            <span class="button-base button-right">Gmail</span>
-            <img id="apps" src="assets/apps_black_24dp.svg" alt="Google apps icon" class="button-base button-right">
-            <img id="profile-pic" src="assets/selfie.jpg" alt="profile-picture" class="button-base button-right profile-pic">
         </div>
+        <div>
+        <span class="button-base button-right">Images</span>        
+        <span class="button-base button-right">Gmail</span>
+        <img id="apps" src="assets/apps_black_24dp.svg" alt="Google apps icon" class="button-base button-right">
+        <img id="profile-pic" src="assets/selfie.jpg" alt="profile-picture" class="button-base button-right profile-pic">
+        </div>
+    </header>
     <div>
         <img id="google-logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo" class="center">
     </div>
@@ -28,20 +31,20 @@
         <img id="mic" src="assets/mic_black_24dp.svg" alt="Microphone" class="icon">
     </div>
     <div>
-        <span class="button-base button-center box-buttons">Google Search</span>
-        <span class="button-base button-center box-buttons">I'm Feeling Lucky</span>
+        <span class="button-base box-buttons">Google Search</span>
+        <span class="button-base box-buttons">I'm Feeling Lucky</span>
     </div>
-    <footer class="bottom-toolbar">
+    <footer class="toolbar-base toolbar-bottom">
         <div>
             <span class="button-base button-left">Advertising</span>
             <span class="button-base button-left">Business</span>
             <span class="button-base button-left">How Search Works</span>
         </div>
-        <div class="button-base button-center">
-            <img id="leaf" src="assets/leaf.png">
-            <span>Carbon neutral since 2007</span>
+        <div>
+            <img id="leaf" src="assets/leaf.png" class="button-base">
+            <span class="button-base">Carbon neutral since 2007</span>
         </div>
-        <div class="button-base button-right">
+        <div>
             <span class="button-base button-right">Privacy</span>        
             <span class="button-base button-right">Terms</span>
             <span class="button-base button-right">Settings</span>

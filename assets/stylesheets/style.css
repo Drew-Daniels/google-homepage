@@ -93,11 +93,23 @@ table {
     padding: 5px;
 }
 
-.bottom-toolbar {
-    position: absolute;
-    bottom: 0;
+.toolbar-base {
+    display: flex;
+    justify-content: space-between;
     height: 40px;
     width: 100%;
+}
+
+.toolbar-top {
+    position: absolute;
+    top: 0;
+    height: 40px;
+}
+
+.toolbar-bottom {
+    position: absolute;
+    justify-content: space-between;
+    bottom: 0;
     background-color: rgb(245, 245, 245);
     color:gray;
 }
@@ -109,11 +121,6 @@ table {
 
 .button-left {
     float: left;
-}
-
-.button-center {
-    left: 40%;
-    right: 40%;
 }
 
 .button-right {
