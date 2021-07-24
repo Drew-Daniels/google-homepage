@@ -97,13 +97,17 @@ table {
     margin: 10px;
     left: 40%;
     right: 40%;
-    position: fixed;
 }
 
 .right-buttons {
     display: inline;
     margin: 10px;
     float: right;
+}
+
+.box-buttons {
+    background-color: rgb(245, 245, 245);
+    padding: 10px;
 }
 
 .profile-pic {
