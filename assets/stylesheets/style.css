@@ -34,6 +34,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+    height: 100%;
 }
 ol, ul {
 	list-style: none;
@@ -74,34 +75,48 @@ table {
     margin-right: auto;
 }
 
+#leaf {
+    display: inline;
+    height: 15px;
+    width: auto;
+    max-width: 40px;
+}
+
 .icon {
     height: auto;
     width: auto;
     max-width: 100px;
 }
 
-.bottom-toolbar {
-    display: flex;
-    min-height: 100vh;
-    background-color: rgb(245, 245, 245);
+.top-toolbar {
+    margin: 10px;
+    padding: 5px;
 }
 
-.left-buttons {
+.bottom-toolbar {
+    position: absolute;
+    bottom: 0;
+    height: 40px;
+    width: 100%;
+    background-color: rgb(245, 245, 245);
+    color:gray;
+}
+
+.button-base {
     display: inline;
     margin: 10px;
+}
+
+.button-left {
     float: left;
 }
 
-.center-buttons {
-    display: inline;
-    margin: 10px;
+.button-center {
     left: 40%;
     right: 40%;
 }
 
-.right-buttons {
-    display: inline;
-    margin: 10px;
+.button-right {
     float: right;
 }
 
